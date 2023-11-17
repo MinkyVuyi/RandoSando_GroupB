@@ -1,0 +1,115 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.title {
+    font-size: 27px;
+    margin-bottom: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.cardTitle {
+    font-size: 18px;
+    color: #414040;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.cardCategory {
+    color: #565555;
+    word-spacing: 5px;
+    align-items: center;
+    margin: 5px;
+}
+.cardCategory span {
+    margin-left: 5px;
+    font-size:large;
+}
+
+.cardCategory svg {
+    margin-right: 10px;
+    fill: #565555; 
+}
+
+.card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgba(168, 245, 213, 0.6);
+    background-color: whitesmoke;
+    width: 340px;
+    padding: 10px;
+}
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.cardImageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.cardImage {
+    max-width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.cardContent {
+    padding: 10px;
+}
+
+.cardTitle {
+    font-size: 18px;
+    color: #414040;
+    margin: 0;
+}
+
+.cardDescription {
+    color: #100E0E;
+}
+
+.cardCategory {
+    color: #565555;
+}
+
+
+/*pagination */
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  color:green;
+}
+
+.pagination span {
+  cursor: pointer;
+  padding: 5px 10px;
+  margin: 0 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.pagination span:hover {
+  background-color: #ddd;
+}
+
+.pagination span.active {
+  background-color: #4caf50;
+  color: white;
+}
+
+
